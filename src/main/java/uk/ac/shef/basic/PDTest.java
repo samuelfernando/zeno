@@ -8,16 +8,12 @@ import org.robokind.api.motion.Joint;
 import org.robokind.api.motion.Robot;
 import org.robokind.api.motion.messaging.RemoteRobot;
 import org.robokind.client.basic.Robokind;
-import static org.robokind.client.basic.RobotJoints.LEFT_ELBOW_PITCH;
-import static org.robokind.client.basic.RobotJoints.LEFT_ELBOW_YAW;
 import org.robokind.client.basic.UserSettings;
 import uk.ac.shef.settings.SetSettings;
 
 public class PDTest extends MaxObject implements Executable {
     private static RemoteRobot myRobot;
     private static Robot.RobotPositionMap myGoalPositions;
-    private static Robot.JointId left_elbow_yaw;
-    private static Robot.JointId left_elbow_pitch;
     
     public PDTest() {
         String robotID = "myRobot";
@@ -41,8 +37,7 @@ public class PDTest extends MaxObject implements Executable {
         UserSettings.setCameraAddress(robotIP);
         //////////// End settings //////////////////////////////
         myRobot = Robokind.connectRobot();
-        left_elbow_yaw = new Robot.JointId(myRobot.getRobotId(), new Joint.Id(LEFT_ELBOW_YAW)); 
-        left_elbow_pitch = new Robot.JointId(myRobot.getRobotId(), new Joint.Id(LEFT_ELBOW_PITCH));
+       
         myGoalPositions = new Robot.RobotPositionHashMap();
         
     }
@@ -55,6 +50,7 @@ public class PDTest extends MaxObject implements Executable {
         myRobot.move(myGoalPositions, 100);    
     }*/
     
+    @Override
     protected void list(Atom content[]) {
         float f = content[0].getFloat();
         String jointName = content[1].getString();
@@ -62,7 +58,7 @@ public class PDTest extends MaxObject implements Executable {
         post(f+"\t"+jointName+"\t"+jointId);
         Robot.JointId jid = new Robot.JointId(myRobot.getRobotId(), new Joint.Id(jointId)); 
         myGoalPositions.put(jid, new NormalizedDouble(f));
-        myRobot.move(myGoalPositions, 100);  
+        myRobot.move(myGoalPositions, 1);  
     }
         
    
