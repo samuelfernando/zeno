@@ -1,0 +1,775 @@
+<?xml version="1.0"?>
+<Animation>
+	<Version type="Animation">
+		<Name>New Animation</Name>
+		<Number>1.0</Number>
+	</Version>
+	<Channels>
+		<Channel id="500" name="RtShoulder_Pitch">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.1851851851851854</Position></ControlPoint>
+						<ControlPoint><Time>416.66700000000003</Time><Position>0.5410789806636506</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.5212610071498477</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.5212610071498477</Position></ControlPoint>
+						<ControlPoint><Time>1875.0</Time><Position>0.5198031478711259</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>0.5180418331675757</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.4984827516945356</Position></ControlPoint>
+						<ControlPoint><Time>2916.67</Time><Position>0.3482595840089573</Position></ControlPoint>
+						<ControlPoint><Time>4166.67</Time><Position>0.1851851851851854</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="501" name="RtShoulder_Roll">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.11111327663404282</Position></ControlPoint>
+						<ControlPoint><Time>416.66700000000003</Time><Position>0.31570377287981205</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.31570377287981205</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.31570377287981205</Position></ControlPoint>
+						<ControlPoint><Time>1875.0</Time><Position>0.3148188713962211</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>0.3137429839809198</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.3018381942376461</Position></ControlPoint>
+						<ControlPoint><Time>2916.67</Time><Position>0.2103877639370432</Position></ControlPoint>
+						<ControlPoint><Time>4166.67</Time><Position>0.11111327663404282</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="520" name="RtWrist_Yaw">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.43055560537082704</Position></ControlPoint>
+						<ControlPoint><Time>416.66700000000003</Time><Position>0.43055560537082704</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.43055560537082704</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.3616752558599718</Position></ControlPoint>
+						<ControlPoint><Time>1875.0</Time><Position>0.43055560537082704</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>0.43055560537082704</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.43055560537082704</Position></ControlPoint>
+						<ControlPoint><Time>2916.67</Time><Position>0.43055560537082704</Position></ControlPoint>
+						<ControlPoint><Time>4166.67</Time><Position>0.43055560537082704</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="530" name="RtHand">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.3</Position></ControlPoint>
+						<ControlPoint><Time>416.66700000000003</Time><Position>0.3</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.4</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.4</Position></ControlPoint>
+						<ControlPoint><Time>1875.0</Time><Position>0.177778</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>0.1</Position></ControlPoint>
+						<ControlPoint><Time>2708.33</Time><Position>0.3</Position></ControlPoint>
+						<ControlPoint><Time>2916.67</Time><Position>0.170537</Position></ControlPoint>
+						<ControlPoint><Time>4166.67</Time><Position>0.3</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="400" name="LtShoulder_Pitch">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.1851851851851854</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.5664885978447487</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.5664885978447487</Position></ControlPoint>
+						<ControlPoint><Time>1875.0</Time><Position>0.4883689855775226</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>0.4256852807243027</Position></ControlPoint>
+						<ControlPoint><Time>2291.67</Time><Position>0.35986749673171703</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.3145855811495741</Position></ControlPoint>
+						<ControlPoint><Time>2916.67</Time><Position>0.1851851851851854</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="401" name="LtShoulder_Roll">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.11111327663404282</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.36514175454256115</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.36514175454256115</Position></ControlPoint>
+						<ControlPoint><Time>1875.0</Time><Position>0.2770036569175868</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>0.2428171751414477</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.1832295644478423</Position></ControlPoint>
+						<ControlPoint><Time>2916.67</Time><Position>0.11111327663404282</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="420" name="LtWrist_Yaw">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.43055560537082704</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.43055560537082704</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.36795487329460563</Position></ControlPoint>
+						<ControlPoint><Time>1875.0</Time><Position>0.43055560537082704</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>0.43055560537082704</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.43055560537082704</Position></ControlPoint>
+						<ControlPoint><Time>2916.67</Time><Position>0.43055560537082704</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="430" name="LtHand">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.3</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>1875.0</Time><Position>0.988355</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>0.965596</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.741685</Position></ControlPoint>
+						<ControlPoint><Time>2916.67</Time><Position>0.3</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="202" name="Neck_Pitch">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>416.66700000000003</Time><Position>0.24237754882855694</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.10155712785689336</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.012262801401344748</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>0.0</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.10282107275295191</Position></ControlPoint>
+						<ControlPoint><Time>2708.33</Time><Position>0.10582222568384721</Position></ControlPoint>
+						<ControlPoint><Time>3416.67</Time><Position>0.22041607654119247</Position></ControlPoint>
+						<ControlPoint><Time>4166.67</Time><Position>0.5</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="200" name="Neck_Yaw">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>416.66700000000003</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.47558544074377157</Position></ControlPoint>
+						<ControlPoint><Time>2708.33</Time><Position>0.4670404118491677</Position></ControlPoint>
+						<ControlPoint><Time>3416.67</Time><Position>0.4670404118491677</Position></ControlPoint>
+						<ControlPoint><Time>4166.67</Time><Position>0.5</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="201" name="Neck_Roll">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>416.66700000000003</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.3782201124761239</Position></ControlPoint>
+						<ControlPoint><Time>2708.33</Time><Position>0.3355977820963419</Position></ControlPoint>
+						<ControlPoint><Time>3416.67</Time><Position>0.3355977820963419</Position></ControlPoint>
+						<ControlPoint><Time>4166.67</Time><Position>0.5</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="300" name="Brows_Up">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>416.66700000000003</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.0</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.0</Position></ControlPoint>
+						<ControlPoint><Time>1875.0</Time><Position>0.646439</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>0.636145</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.5888025</Position></ControlPoint>
+						<ControlPoint><Time>2916.67</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>4166.67</Time><Position>0.5</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="301" name="Blink_Open">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>416.66700000000003</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.1</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.1</Position></ControlPoint>
+						<ControlPoint><Time>1875.0</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>2291.67</Time><Position>0.1</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>2916.67</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>4166.67</Time><Position>0.5</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="320" name="LtSmile">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>416.66700000000003</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.4057773333333334</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.4057773333333334</Position></ControlPoint>
+						<ControlPoint><Time>1875.0</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>0.5353441333333333</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.6675599999999999</Position></ControlPoint>
+						<ControlPoint><Time>2916.67</Time><Position>0.8548119999999999</Position></ControlPoint>
+						<ControlPoint><Time>3833.33</Time><Position>0.850762</Position></ControlPoint>
+						<ControlPoint><Time>4166.67</Time><Position>0.5</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="321" name="RtSmile">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>416.66700000000003</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.4057773333333334</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.4057773333333334</Position></ControlPoint>
+						<ControlPoint><Time>1875.0</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>0.5772373333333333</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.7522033333333334</Position></ControlPoint>
+						<ControlPoint><Time>2916.67</Time><Position>1.0</Position></ControlPoint>
+						<ControlPoint><Time>3833.33</Time><Position>0.9233566666666667</Position></ControlPoint>
+						<ControlPoint><Time>4166.67</Time><Position>0.5</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="322" name="Jaw">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.0</Position></ControlPoint>
+						<ControlPoint><Time>416.66700000000003</Time><Position>0.0</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.0</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.0</Position></ControlPoint>
+						<ControlPoint><Time>1875.0</Time><Position>0.2579029793735676</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.15944652406417112</Position></ControlPoint>
+						<ControlPoint><Time>2916.67</Time><Position>0.2770920550038197</Position></ControlPoint>
+						<ControlPoint><Time>3833.33</Time><Position>0.3534488158899924</Position></ControlPoint>
+						<ControlPoint><Time>4166.67</Time><Position>0.0</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="411" name="LtElbow_Pitch">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.1111111111111114</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>1.0</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>1.0</Position></ControlPoint>
+						<ControlPoint><Time>1875.0</Time><Position>1.0</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>1.0</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.75080914211863</Position></ControlPoint>
+						<ControlPoint><Time>2916.67</Time><Position>0.1111111111111114</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="410" name="LtElbow_Yaw">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.16855689718337163</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.14153287524089175</Position></ControlPoint>
+						<ControlPoint><Time>1875.0</Time><Position>0.08690435441458959</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>0.0654571804421386</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.03856464149360881</Position></ControlPoint>
+						<ControlPoint><Time>2916.67</Time><Position>0.5</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="511" name="RtElbow_Pitch">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.1111111111111114</Position></ControlPoint>
+						<ControlPoint><Time>416.66700000000003</Time><Position>1.0</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>1.0</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>1.0</Position></ControlPoint>
+						<ControlPoint><Time>1875.0</Time><Position>1.0</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>1.0</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>1.0</Position></ControlPoint>
+						<ControlPoint><Time>2916.67</Time><Position>0.9048323291412734</Position></ControlPoint>
+						<ControlPoint><Time>4166.67</Time><Position>0.1111111111111114</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+		<Channel id="510" name="RtElbow_Yaw">
+			<MotionPaths>
+				<MotionPath name="path">
+					<Version type="Interpolation">
+						<Name>C-Spline Interpolation</Name>
+						<Number>1.0</Number>
+					</Version>
+					<ControlPoints>
+						<ControlPoint><Time>41.6667</Time><Position>0.5</Position></ControlPoint>
+						<ControlPoint><Time>416.66700000000003</Time><Position>0.25843222651378933</Position></ControlPoint>
+						<ControlPoint><Time>833.333</Time><Position>0.23662382302831553</Position></ControlPoint>
+						<ControlPoint><Time>1458.33</Time><Position>0.22996803183228115</Position></ControlPoint>
+						<ControlPoint><Time>1875.0</Time><Position>0.24684869489820652</Position></ControlPoint>
+						<ControlPoint><Time>2083.33</Time><Position>0.2543144755612857</Position></ControlPoint>
+						<ControlPoint><Time>2500.0</Time><Position>0.2656815170754788</Position></ControlPoint>
+						<ControlPoint><Time>2916.67</Time><Position>0.17866799385638868</Position></ControlPoint>
+						<ControlPoint><Time>4166.67</Time><Position>0.5</Position></ControlPoint>
+					</ControlPoints>
+				</MotionPath>
+			</MotionPaths>
+		</Channel>
+	</Channels>
+	<AddOns />
+	<ChannelsParameters>
+		<ChannelsParameter>
+			<ChannelId>602</ChannelId>
+			<ChannelName>LtHip_Pitch</ChannelName>
+			<DefaultPosition>0.1</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>721</ChannelId>
+			<ChannelName>RtAnkle_Roll</ChannelName>
+			<DefaultPosition>0.5</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>311</ChannelId>
+			<ChannelName>LtEye_Yaw</ChannelName>
+			<DefaultPosition>0.5</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>701</ChannelId>
+			<ChannelName>RtHip_Yaw</ChannelName>
+			<DefaultPosition>0.818181818181818</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>620</ChannelId>
+			<ChannelName>LtAnkle_Pitch</ChannelName>
+			<DefaultPosition>0.7</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>420</ChannelId>
+			<ChannelName>LtWrist_Yaw</ChannelName>
+			<DefaultPosition>0.5</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>320</ChannelId>
+			<ChannelName>LtSmile</ChannelName>
+			<DefaultPosition>0.5</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>42</ChannelId>
+			<ChannelName>Root_Spin</ChannelName>
+			<DefaultPosition>0.5</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>322</ChannelId>
+			<ChannelName>Jaw</ChannelName>
+			<DefaultPosition>0.364464692482916</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>501</ChannelId>
+			<ChannelName>RtShoulder_Roll</ChannelName>
+			<DefaultPosition>0.055555555555556</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>510</ChannelId>
+			<ChannelName>RtElbow_Yaw</ChannelName>
+			<DefaultPosition>0.5</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>500</ChannelId>
+			<ChannelName>RtShoulder_Pitch</ChannelName>
+			<DefaultPosition>0.185185185185185</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>321</ChannelId>
+			<ChannelName>RtSmile</ChannelName>
+			<DefaultPosition>0.5</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>621</ChannelId>
+			<ChannelName>LtAnkle_Roll</ChannelName>
+			<DefaultPosition>0.5</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>310</ChannelId>
+			<ChannelName>Eyes_Vert</ChannelName>
+			<DefaultPosition>0.67</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>201</ChannelId>
+			<ChannelName>Neck_Roll</ChannelName>
+			<DefaultPosition>0.5</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>202</ChannelId>
+			<ChannelName>Neck_Pitch</ChannelName>
+			<DefaultPosition>0.5</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>520</ChannelId>
+			<ChannelName>RtWrist_Yaw</ChannelName>
+			<DefaultPosition>0.5</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>511</ChannelId>
+			<ChannelName>RtElbow_Pitch</ChannelName>
+			<DefaultPosition>0.111111111111111</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>400</ChannelId>
+			<ChannelName>LtShoulder_Pitch</ChannelName>
+			<DefaultPosition>0.185185185185185</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>301</ChannelId>
+			<ChannelName>Blink_Open</ChannelName>
+			<DefaultPosition>0.442105263157895</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>720</ChannelId>
+			<ChannelName>RtAnkle_Pitch</ChannelName>
+			<DefaultPosition>0.7</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>600</ChannelId>
+			<ChannelName>LtHip_Roll</ChannelName>
+			<DefaultPosition>0.2</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>411</ChannelId>
+			<ChannelName>LtElbow_Pitch</ChannelName>
+			<DefaultPosition>0.111111111111111</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>401</ChannelId>
+			<ChannelName>LtShoulder_Roll</ChannelName>
+			<DefaultPosition>0.055555555555556</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>700</ChannelId>
+			<ChannelName>RtHip_Roll</ChannelName>
+			<DefaultPosition>0.2</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>312</ChannelId>
+			<ChannelName>RtEye_Yaw</ChannelName>
+			<DefaultPosition>0.5</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>710</ChannelId>
+			<ChannelName>RtKnee_Pitch</ChannelName>
+			<DefaultPosition>0.909090909090909</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>601</ChannelId>
+			<ChannelName>LtHip_Yaw</ChannelName>
+			<DefaultPosition>0.181818181818182</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>610</ChannelId>
+			<ChannelName>LtKnee_Pitch</ChannelName>
+			<DefaultPosition>0.909090909090909</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>200</ChannelId>
+			<ChannelName>Neck_Yaw</ChannelName>
+			<DefaultPosition>0.5</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>410</ChannelId>
+			<ChannelName>LtElbow_Yaw</ChannelName>
+			<DefaultPosition>0.5</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>100</ChannelId>
+			<ChannelName>Waist_Yaw</ChannelName>
+			<DefaultPosition>0.5</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>702</ChannelId>
+			<ChannelName>RtHip_Pitch</ChannelName>
+			<DefaultPosition>0.1</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+		<ChannelsParameter>
+			<ChannelId>300</ChannelId>
+			<ChannelName>Brows_Up</ChannelName>
+			<DefaultPosition>0.542372881355932</DefaultPosition>
+			<NormalizableRange>
+				<Minimum>0.0</Minimum>
+				<Maximum>1.0</Maximum>
+			</NormalizableRange>
+			<GenericParameters />
+		</ChannelsParameter>
+	</ChannelsParameters>
+	<SyncPointGroups />
+</Animation>

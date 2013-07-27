@@ -1,0 +1,47 @@
+#N canvas 489 119 721 466 10;
+#X obj 39 157 bng 15 250 50 0 empty empty empty 0 -6 0 8 -262144 -1
+-1;
+#X obj 254 47 r allo;
+#X floatatom 263 98 5 0 0 0 - - -;
+#X obj 326 93 print xc;
+#X msg 82 160 wer wer 1;
+#X obj 135 34 metro 300;
+#X obj 127 9 bng 15 250 50 0 empty empty empty 0 -6 0 8 -262144 -1
+-1;
+#X floatatom 218 11 5 0 0 0 - - -;
+#X obj 30 246 print outlet_1;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array array_tester 100 float 1;
+#A 0 0 0.585717 0.528574 0.471431 0.442859 0.485716 0.585717 0.528574
+0.257144 0.385716 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X coords 0 1 99 -1 200 140 1;
+#X restore 339 209 graph;
+#X msg 25 117 testle;
+#X msg 21 11 sizeArray 10;
+#X msg 31 30 sizeArray 100;
+#X msg 169 68 get patate;
+#X obj 105 222 print setter;
+#X msg 44 52 test_anything;
+#X msg 59 72 test_unkown 12;
+#X msg 69 93 callstring allo;
+#X msg 162 116 set patate 20;
+#X obj 23 187 pdj uk.ac.shef.basic.PDTest;
+#X connect 0 0 19 0;
+#X connect 1 0 2 0;
+#X connect 1 0 3 0;
+#X connect 4 0 19 0;
+#X connect 5 0 4 0;
+#X connect 6 0 5 0;
+#X connect 7 0 5 1;
+#X connect 10 0 19 0;
+#X connect 11 0 19 0;
+#X connect 12 0 19 0;
+#X connect 13 0 19 0;
+#X connect 15 0 19 0;
+#X connect 16 0 19 0;
+#X connect 17 0 19 0;
+#X connect 18 0 19 0;
+#X connect 19 0 8 0;
+#X connect 19 2 14 0;
