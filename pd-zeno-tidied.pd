@@ -1,91 +1,91 @@
 #N canvas -8 -8 1366 686 10;
 #X obj -210 -124 pdj uk.ac.shef.basic.PDTest;
 #X obj 380 786 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 3600 1;
+-1 -1 0 1;
 #X obj 377 810 list append right_hip_pitch 702;
 #X obj 244 -150 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
 #X obj 241 -126 list append brows_pitch 300;
 #X obj 379 865 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 5900 1;
+-1 -1 0 1;
 #X obj 376 889 list append right_hip_yaw 701;
 #X obj -256 694 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
 #X obj -259 717 list append left_wrist 420;
 #X obj 379 946 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 4200 1;
+-1 -1 0 1;
 #X obj 376 971 list append right_hip_roll 700;
 #X obj 243 -71 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 6600 1;
+-1 -1 0 1;
 #X obj 240 -45 list append eyelids 301;
 #X obj 442 1034 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 12700 1;
+-1 -1 0 1;
 #X obj 439 1060 list append right_knee_pitch 710;
 #X obj -96 639 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 7700 1;
+-1 -1 0 1;
 #X obj -99 663 list append left_elbow_yaw 410;
 #X obj -96 561 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 6400 1;
+-1 -1 0 1;
 #X obj -99 588 list append left_elbow_pitch 411;
 #X obj 420 13 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 6500 1;
+-1 -1 0 1;
 #X obj 417 39 list append eye_right 312;
 #X obj 75 13 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 5400 1;
+-1 -1 0 1;
 #X obj 72 40 list append eye_left 311;
 #X obj 243 12 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 7000 1;
+-1 -1 0 1;
 #X obj 240 39 list append eyes_pitch 310;
 #X obj 510 1120 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 900 1;
+-1 -1 0 1;
 #X obj 507 1147 list append right_ankle_pitch 720;
 #X obj 248 688 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 7100 1;
+-1 -1 0 1;
 #X obj 245 712 list append waist 100;
 #X obj 374 587 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
 #X obj 371 610 list append right_shoulder_roll 501;
 #X obj 509 1205 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 8200 1;
+-1 -1 0 1;
 #X obj 506 1228 list append right_ankle_roll 721;
 #X obj -255 782 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 6100 1;
+-1 -1 0 1;
 #X obj -258 805 list append left_grasp 430;
 #X obj 378 504 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 4100 1;
+-1 -1 0 1;
 #X obj 375 529 list append right_shoulder_pitch 500;
 #X obj 610 558 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 4300 1;
+-1 -1 0 1;
 #X obj 607 584 list append right_elbow_pitch 511;
 #X obj 112 787 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 5600 1;
+-1 -1 0 1;
 #X obj 109 809 list append left_hip_pitch 602;
 #X obj 112 871 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 6000 1;
+-1 -1 0 1;
 #X obj 108 894 list append left_hip_yaw 601;
 #X obj 610 642 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
 #X obj 607 666 list append right_elbow_yaw 510;
 #X obj 243 422 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 7000 1;
+-1 -1 0 1;
 #X obj 240 444 list append neck_roll 201;
 #X obj 759 699 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
 #X obj 756 722 list append right_wrist 520;
 #X obj 243 269 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 12700 1;
+-1 -1 0 1;
 #X obj 240 290 list append neck_pitch 202;
 #X obj 58 1030 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
 #X obj 55 1053 list append left_knee_pitch 610;
 #X obj 5 1121 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 1600 1;
+-1 -1 0 1;
 #X obj 2 1145 list append left_ankle_pitch 620;
 #X obj 243 343 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 5900 1;
+-1 -1 0 1;
 #X obj 240 365 list append neck_yaw 200;
 #X obj 4 1204 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 4200 1;
+-1 -1 0 1;
 #X obj 1 1228 list append left_ankle_roll 621;
 #X obj 110 588 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
@@ -97,16 +97,16 @@
 -1 -1 0 1;
 #X obj 341 132 list append smile_right 321;
 #X obj 244 186 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 7400 1;
+-1 -1 0 1;
 #X obj 241 211 list append jaw 322;
 #X obj 110 510 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 2800 1;
+-1 -1 0 1;
 #X obj 107 533 list append left_shoulder_pitch 400;
 #X obj 112 952 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 6900 1;
+-1 -1 0 1;
 #X obj 109 974 list append left_hip_roll 600;
 #X obj 760 779 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 3600 1;
+-1 -1 0 1;
 #X obj 757 801 list append right_grasp 530;
 #X obj 240 -17 s command;
 #X obj -210 -150 r command;
@@ -145,6 +145,9 @@
 #X obj 167 158 s command;
 #X obj 107 639 s command;
 #X obj 757 826 s command;
+#X obj -228 101 s command;
+#X msg -228 1 speak;
+#X obj -241 49 list append hello roger this is pure data;
 #X connect 1 0 2 0;
 #X connect 2 0 80 0;
 #X connect 3 0 4 0;
@@ -218,3 +221,5 @@
 #X connect 71 0 72 0;
 #X connect 72 0 109 0;
 #X connect 74 0 0 0;
+#X connect 111 0 112 0;
+#X connect 112 0 110 0;

@@ -7,6 +7,7 @@ import org.robokind.api.common.position.NormalizedDouble;
 import org.robokind.api.motion.Joint;
 import org.robokind.api.motion.Robot;
 import org.robokind.api.motion.messaging.RemoteRobot;
+import org.robokind.api.speech.messaging.RemoteSpeechServiceClient;
 import org.robokind.client.basic.Robokind;
 import org.robokind.client.basic.UserSettings;
 import uk.ac.shef.settings.SetSettings;
@@ -14,7 +15,7 @@ import uk.ac.shef.settings.SetSettings;
 public class PDTest extends MaxObject implements Executable {
     private static RemoteRobot myRobot;
     private static Robot.RobotPositionMap myGoalPositions;
-    
+    private static RemoteSpeechServiceClient mySpeaker;
     public PDTest() {
         String robotID = "myRobot";
         String robotIP = "192.168.0.54";
@@ -39,7 +40,7 @@ public class PDTest extends MaxObject implements Executable {
         myRobot = Robokind.connectRobot();
        
         myGoalPositions = new Robot.RobotPositionHashMap();
-        
+        mySpeaker = Robokind.connectSpeechService();
     }
 
     /*    @Override
@@ -52,14 +53,27 @@ public class PDTest extends MaxObject implements Executable {
     
     @Override
     protected void list(Atom content[]) {
-        float f = content[0].getFloat();
-        String jointName = content[1].getString();
-        int jointId = content[2].getInt();
-        post(f+"\t"+jointName+"\t"+jointId);
-        Robot.JointId jid = new Robot.JointId(myRobot.getRobotId(), new Joint.Id(jointId)); 
-        myGoalPositions.put(jid, new NormalizedDouble(f));
-        myRobot.move(myGoalPositions, 1);  
+        if (content[0].isString()) {
+            speak(content);
+        } else {
+            float f = content[0].getFloat();
+            String jointName = content[1].getString();
+            int jointId = content[2].getInt();
+            post(f+"\t"+jointName+"\t"+jointId);
+            Robot.JointId jid = new Robot.JointId(myRobot.getRobotId(), new Joint.Id(jointId)); 
+            myGoalPositions.put(jid, new NormalizedDouble(f));
+            myRobot.move(myGoalPositions, 1);  
+        }
     }
+    
+    void speak(Atom content[]) {
+        String text = "";
+        for (int i=1;i<content.length;++i) {
+            text += content[i]+" ";
+        }
+        mySpeaker.speak(text);
+    }
+    
         
    
 
