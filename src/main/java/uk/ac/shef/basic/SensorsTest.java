@@ -4,7 +4,7 @@ import org.robokind.api.motion.messaging.RemoteRobot;
 import org.robokind.client.basic.*;
 import org.jflux.api.core.Listener;
 import org.robokind.api.sensor.*;
-import org.robokind.avrogen.sensor.*;
+import org.robokind.impl.sensor.*;
 import org.robokind.api.sensor.gpio.RemoteGpioServiceClient;
 import org.robokind.api.sensor.imu.*;
 import uk.ac.shef.settings.SetSettings;
