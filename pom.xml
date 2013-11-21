@@ -20,6 +20,11 @@
         <id>sonatype-public</id>
         <name>sonatype public</name>
         <url>https://oss.sonatype.org/content/groups/public/</url>
+    </repository>
+    <repository>
+        <id>local-rep</id>
+        <name>local-rep</name>
+        <url>file://C:/users/Zeno/.m2/repository</url>
     </repository>    
   </repositories>
   
@@ -36,11 +41,13 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+        
         <dependency>
-            <groupId>puredata</groupId>
-            <artifactId>puredata</artifactId>
-            <version>1.0</version>
-        </dependency>
+      <groupId>puredata</groupId>
+      <artifactId>puredata</artifactId>
+      <version>1.0</version>
+    </dependency>
+    
     </dependencies>
    <build>
    
