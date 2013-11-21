@@ -34,7 +34,8 @@ public class App {
         ///////////////////////////////////////////
         
         String robotID = "myRobot";
-        String robotIP = "192.168.0.54";
+        //String robotIP = "192.168.0.54";
+        String robotIP = "143.167.145.225";
         
         //////////////////////////////////////////////////////
         // SETTINGS - this is handled in SetSettings.java ////
