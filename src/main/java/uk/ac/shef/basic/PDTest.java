@@ -31,7 +31,7 @@ public class PDTest extends MaxObject implements Executable {
         BufferedReader br = null;
         try {
             String robotID = "myRobot";
-            br = new BufferedReader(new FileReader("C:\\Users\\zeno\\Documents\\NetBeansProjects\\zeno-ip.txt"));
+            br = new BufferedReader(new FileReader("C:\\Users\\samf\\Documents\\NetBeansProjects\\zeno-ip.txt"));
             String robotIP = br.readLine();
             System.out.println("ip = "+robotIP);
             //String robotIP = "192.168.0.54";
@@ -54,7 +54,7 @@ public class PDTest extends MaxObject implements Executable {
             myRobot = Robokind.connectRobot();
             myGoalPositions = myRobot.getCurrentPositions();
             mySpeaker = Robokind.connectSpeechService();
-            pw = new PrintWriter(new BufferedWriter(new FileWriter("C:\\Users\\zeno\\Documents\\NetBeansProjects\\store-positions.txt", true)));
+            pw = new PrintWriter(new BufferedWriter(new FileWriter("C:\\Users\\samf\\Documents\\NetBeansProjects\\store-positions.txt", true)));
         } catch (Exception ex) {
             Logger.getLogger(PDTest.class.getName()).log(Level.SEVERE, null, ex);
         } finally {
