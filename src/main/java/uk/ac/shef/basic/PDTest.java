@@ -9,12 +9,17 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Stack;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.jflux.api.core.Listener;
 import org.robokind.api.common.position.NormalizedDouble;
 import org.robokind.api.motion.Joint;
 import org.robokind.api.motion.Robot;
+import org.robokind.api.motion.Robot.RobotPositionHashMap;
 import org.robokind.api.motion.messaging.RemoteRobot;
 import org.robokind.api.sensor.DeviceBoolEvent;
 import org.robokind.api.sensor.DeviceReadPeriodEvent;
@@ -33,16 +38,29 @@ import org.robokind.impl.sensor.DeviceReadPeriodRecord;
 import org.robokind.impl.sensor.GyroConfigRecord;
 import org.robokind.impl.sensor.HeaderRecord;
 
+
+class Command {
+    Robot.JointId joint;
+    float position;
+    long logTime;
+    Command(Robot.JointId joint, float position) {
+        this.joint = joint;
+        this.position = position;
+        logTime = System.currentTimeMillis();
+    }
+}
 public class PDTest extends MaxObject implements Executable {
     private static RemoteRobot myRobot;
     private static Robot.RobotPositionMap myGoalPositions;
     private static RemoteSpeechServiceClient mySpeaker;
     private static PrintWriter pw;
+    long lastCheck;
+    Stack<Command> commands;
     public PDTest() {
         BufferedReader br = null;
         try {
             String robotID = "myRobot";
-            br = new BufferedReader(new FileReader("C:\\Users\\samf\\Documents\\NetBeansProjects\\zeno-ip.txt"));
+            br = new BufferedReader(new FileReader("c:\\zeno-ip.txt"));
             String robotIP = br.readLine();
             System.out.println("ip = "+robotIP);
             //String robotIP = "192.168.0.54";
@@ -64,11 +82,29 @@ public class PDTest extends MaxObject implements Executable {
             UserSettings.setCameraAddress(robotIP);
             //////////// End settings //////////////////////////////
             myRobot = Robokind.connectRobot();
-            myGoalPositions = myRobot.getCurrentPositions();
+            myGoalPositions = new RobotPositionHashMap();
             mySpeaker = Robokind.connectSpeechService();
-            pw = new PrintWriter(new BufferedWriter(new FileWriter("C:\\Users\\samf\\Documents\\NetBeansProjects\\store-positions.txt", true)));
-           initSensors();  
+            pw = new PrintWriter(new BufferedWriter(new FileWriter("c:\\store-positions.txt", true)));
+            commands = new Stack<Command>();
+            initSensors();  
            declareIO(1, 18);
+            ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+  
+        Runnable toRun = new Runnable() {
+            public void run() {
+                //System.out.println("running");
+                try {
+                    update();
+                }
+                catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+      
+            
+        };
+      scheduler.scheduleAtFixedRate(toRun, 0, 100, TimeUnit.MILLISECONDS);
+            
         } catch (Exception ex) {
             Logger.getLogger(PDTest.class.getName()).log(Level.SEVERE, null, ex);
         } finally {
@@ -88,6 +124,25 @@ public class PDTest extends MaxObject implements Executable {
         myRobot.move(myGoalPositions, 100);    
     }*/
     
+
+    void update() {
+        long now = System.currentTimeMillis();
+        if (!commands.isEmpty()) {
+            Command command = commands.pop();
+            Robot.JointId joint = command.joint;
+            float position = command.position;
+            long logTime = command.logTime;
+            
+            if (now-logTime>200) {
+                myGoalPositions.put(joint, new NormalizedDouble(position));
+                myRobot.move(myGoalPositions, 500);  
+                post("move "+joint.toString()+" "+position);
+                commands.clear();
+                myGoalPositions.clear();
+            }
+            
+        }
+    }
     private void writeGoalPositionsToFile() {
         int count = 0;
         for (Robot.JointId jid : myGoalPositions.keySet()) {
@@ -228,6 +283,7 @@ public class PDTest extends MaxObject implements Executable {
     }
     @Override
     protected void list(Atom content[]) {
+        long now = System.currentTimeMillis();
         if (content[0].isString()) {
             if (content[0].toString().equals("dump")) {
                 post("Dumped to file");
@@ -240,10 +296,12 @@ public class PDTest extends MaxObject implements Executable {
             float f = content[0].getFloat();
             String jointName = content[1].getString();
             int jointId = content[2].getInt();
-            post(f+"\t"+jointName+"\t"+jointId);
+            //post(f+"\t"+jointName+"\t"+jointId);
             Robot.JointId jid = new Robot.JointId(myRobot.getRobotId(), new Joint.Id(jointId)); 
-            myGoalPositions.put(jid, new NormalizedDouble(f));
-            myRobot.move(myGoalPositions, 100);  
+            //myGoalPositions.put(jid, new NormalizedDouble(f));
+            //myRobot.move(myGoalPositions, 1000);  
+            Command command = new Command(jid, f);
+            commands.push(command);
         }
     }
     

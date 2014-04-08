@@ -19,7 +19,7 @@ public class MySensorTest {
     
      public static void main(String[] args) {
          try {
-             BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\zeno\\Documents\\NetBeansProjects\\zeno-ip.txt"));
+             BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\samf\\Documents\\NetBeansProjects\\zeno-ip.txt"));
                 String ip = br.readLine();
                 System.out.println("ip = "+ip);
              
@@ -57,8 +57,7 @@ public class MySensorTest {
             
             System.out.println("Adding IMU.");
             
-            RemoteAccelerometerServiceClient accel =
-                    Robokind.connectAccelerometer();
+            RemoteAccelerometerServiceClient accel = Robokind.connectAccelerometer();
             RemoteGyroscopeServiceClient gyro = Robokind.connectGyroscope();
             RemoteCompassServiceClient compass = Robokind.connectCompass();
             
