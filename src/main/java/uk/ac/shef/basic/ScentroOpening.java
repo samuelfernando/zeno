@@ -100,15 +100,15 @@ public class ScentroOpening {
         myRobot.move(myGoalPositions, 500);
         
         
-        currentJob = mySpeaker.speak("I am going to the museum next month and I will meet children for the first time.");
+        /*currentJob = mySpeaker.speak("I am going to the museum next month and I will meet children for the first time.");
         
         while (currentJob.getStatus()!=DefaultSpeechJob.COMPLETE) {Robokind.sleep(200);}
        
         currentJob = mySpeaker.speak("I am going to play games with them and have fun.");
 
         while (currentJob.getStatus()!=DefaultSpeechJob.COMPLETE) {Robokind.sleep(200);}
-       
-        currentJob = mySpeaker.speak("I hope they like me.");
+       */
+        currentJob = mySpeaker.speak("I hope you like me.");
         while (currentJob.getStatus()!=DefaultSpeechJob.COMPLETE) {Robokind.sleep(200);}
 
         
@@ -116,12 +116,12 @@ public class ScentroOpening {
         myPlayer.playAnimation(anim);
         animLen = anim.getLength();
       
-        mySpeaker.speak("If they don't like me I will get very sad.");
+        mySpeaker.speak("If you don't like me I will get very sad.");
         Robokind.sleep(500 + animLen);
         
-         myGoalPositions = myRobot.getDefaultPositions();
+   /*      myGoalPositions = myRobot.getDefaultPositions();
         myRobot.move(myGoalPositions, 100);
-        currentJob = mySpeaker.speak("Over the next few years I hope that my programmers will make me more clever, so that I can make friends.");
+        currentJob = mySpeaker.speak("Over the next few years I hope I can make friends.");
         while (currentJob.getStatus()!=DefaultSpeechJob.COMPLETE) {Robokind.sleep(200);}
  
         anim = Robokind.loadAnimation("animations/AZR50_VictoryPose_02.anim.xml");
@@ -129,7 +129,7 @@ public class ScentroOpening {
         animLen = anim.getLength();
         mySpeaker.speak("I will be happy when I make friends.");
         Robokind.sleep(500 + animLen);
-      
+     */ 
         currentJob = mySpeaker.speak("It was nice to meet you all and I hope you enjoy the rest of your tour."); 
         while (currentJob.getStatus()!=DefaultSpeechJob.COMPLETE) {Robokind.sleep(200);}
  

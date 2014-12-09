@@ -31,7 +31,7 @@ public class VisitorDemo extends JFrame {
         VisitorDemo vd = new VisitorDemo();
         // config and settings - set robotID and IP 
         String robotID = "myRobot";
-        String robotIP = "192.168.0.54";
+        String robotIP = "127.0.0.1";
         // set respective addresses
         SetSettings settings = new SetSettings(robotID, robotIP);
         // try to make connections

@@ -21,11 +21,7 @@
         <name>sonatype public</name>
         <url>https://oss.sonatype.org/content/groups/public/</url>
     </repository>
-    <repository>
-        <id>local-rep</id>
-        <name>local-rep</name>
-        <url>file://C:/users/Zeno/.m2/repository</url>
-    </repository>    
+        
   </repositories>
   
     <dependencies>

@@ -40,7 +40,7 @@ public class EaselDemo {
         try {
          BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\samf\\Documents\\NetBeansProjects\\zeno-ip.txt"));
          String robotIP = br.readLine();
-       System.out.println("ip = "+robotIP);
+        System.out.println("ip = "+robotIP);
         
          // String robotIP = "143.167.145.225";
         
@@ -82,7 +82,7 @@ public class EaselDemo {
         ///////////////////////////////////////////
         
         // make the robot speak
-        mySpeaker.speak("Hello everyone at the EASEL project.");
+        mySpeaker.speak("Hello everyone at ITV.");
         Robokind.sleep(500 + animLen);
          myGoalPositions = myRobot.getDefaultPositions();
         myRobot.move(myGoalPositions, 100);
@@ -90,7 +90,7 @@ public class EaselDemo {
         anim = Robokind.loadAnimation("animations/AZR50_VictoryPose_02.anim.xml");
         myPlayer.playAnimation(anim);
         animLen = anim.getLength();
-        mySpeaker.speak("I am so happy to be part of your project.");
+        mySpeaker.speak("I am so happy to be on the TV.");
         Robokind.sleep(500 + animLen);
       
          myGoalPositions = myRobot.getDefaultPositions();
@@ -99,7 +99,7 @@ public class EaselDemo {
         myPlayer.playAnimation(anim);
           animLen = anim.getLength();
       
-        mySpeaker.speak("If you don't take me into your project I will be sad.");
+        mySpeaker.speak("If you don't put me on TV I will be sad.");
         Robokind.sleep(500 + animLen);
         
          myGoalPositions = myRobot.getDefaultPositions();

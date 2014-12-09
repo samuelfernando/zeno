@@ -60,7 +60,7 @@ public class PDTest extends MaxObject implements Executable {
         BufferedReader br = null;
         try {
             String robotID = "myRobot";
-            br = new BufferedReader(new FileReader("c:\\zeno-ip.txt"));
+            br = new BufferedReader(new FileReader("c:\\program files (x86)\\Common Files\\pd\\zeno-ip.txt"));
             String robotIP = br.readLine();
             System.out.println("ip = "+robotIP);
             //String robotIP = "192.168.0.54";
